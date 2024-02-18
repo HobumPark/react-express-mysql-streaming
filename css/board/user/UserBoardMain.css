@@ -1,0 +1,132 @@
+
+#user-board-main{
+    width:1200px;
+    height:800px;
+    background-color: darkcyan;
+    margin:0 auto;
+}
+
+#user-board-list{
+    width:95%;
+    height:600px;
+    background-color: darkgreen;
+    margin:0 auto;
+}
+
+#user-board-list>#user-label{
+    width:95%;
+    height:50px;
+    background-color: darkgrey;
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+
+#user-label>span{
+    float:left;
+    height:100%;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+}
+#user-label>span:first-child{
+    width:5%;
+    background-color: mediumseagreen;
+}
+#user-label>span:nth-child(2){
+    width:50%;
+    background-color: mediumturquoise;    
+}
+#user-label>span:nth-child(3){
+    width:15%;
+    background-color: mediumvioletred;    
+}
+#user-label>span:nth-child(4){
+    width:15%;
+    background-color: mediumpurple;    
+}
+#user-label>span:nth-child(5){
+    width:5%;
+    background-color: mistyrose;    
+}
+#user-label>span:nth-child(6){
+    width:10%;
+    background-color: maroon;    
+}
+#board-util{
+    width:95%;
+    height:100px;
+    background-color: darkorange;
+    margin:0 auto;
+}
+#board-util>#check-all-wrap{
+    float:left;
+    background-color: chartreuse;
+    height:100%;
+    padding:20px;
+    box-sizing: border-box;
+}
+#board-util>#check-all-wrap>input{
+    width:30px;
+    height:30px;
+    margin-right:10px;
+    cursor: pointer;
+}
+#board-util>#check-all-wrap>span{
+    font-size:24px;
+}
+
+#board-util>#btn-wrap{
+    float:right;
+    background-color: chartreuse;
+    height:100%;
+    padding:20px;
+    box-sizing: border-box;
+}
+#board-util>#btn-wrap>button{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    margin-right:10px;
+    cursor: pointer;
+    background-color: palegoldenrod;
+}
+#board-util>#btn-wrap>button:hover{
+    background-color: #444;
+}
+
+
+#user-pagination{
+    width:95%;
+    height:100px;
+    background-color: darkkhaki;
+    margin:0 auto;
+    text-align: center;
+}
+#user-pagination-inner{
+    display:inline-block;
+    background-color: paleturquoise;
+}
+
+#page{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-color: palevioletred;
+    margin:10px;
+    cursor: pointer;
+    font-size:20px;
+    font-weight: bold;
+    padding-top:10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#page:hover{
+    color:#fff;
+    background-color: #333;
+}
+
+.active{
+    color:#fff;
+    background-color: #333 !important;
+}

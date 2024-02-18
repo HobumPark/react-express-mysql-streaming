@@ -1,0 +1,71 @@
+
+#user-board-comment{
+    width:95%;
+    height:120px;
+    background-color: rosybrown;
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+
+#user-board-comment-info{
+    width:100%;
+    height:40px;
+    background-color: royalblue;
+}
+#user-board-comment-info>span{
+    padding-top:10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#user-board-comment-info>span:first-child{
+    float:left;
+    width:100px;
+    height:100%;
+    background-color: mediumaquamarine;
+}
+#user-board-comment-info>span:nth-child(2){
+    float:left;
+    width:300px;
+    height:100%;
+    background-color: mediumorchid;
+}
+#user-board-comment-info>span:nth-child(3){
+    float:left;
+    width:300px;
+    height:100%;
+    background-color: mediumvioletred;
+}
+#user-board-comment-info>span:nth-child(3)>button{
+    width:90px;
+    height:30px;
+    border-radius: 10px;
+    margin-right:5px;
+    position: relative;
+    top:-5px;
+    cursor: pointer;
+}
+#user-board-comment-info>span:nth-child(3)>button:hover{
+    background-color: #444;
+}
+
+#user-board-comment-contents{
+    width:100%;
+    height:40px;
+    background-color: sienna;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#user-board-comment-reply-list{
+    width:100%;
+    height:40px;
+    background-color: seagreen;
+    padding:10px;
+    box-sizing: border-box;
+}
+#user-board-comment-reply-list>span{
+    cursor: pointer;
+}
+#user-board-comment-reply-list>span>b{
+    cursor: pointer;
+}

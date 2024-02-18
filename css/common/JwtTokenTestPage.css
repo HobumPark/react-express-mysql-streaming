@@ -1,0 +1,144 @@
+
+#jwt-test-page{
+    width:1200px;
+    height:920px;
+    background-color: violet;
+    margin:0 auto;
+}
+
+/*로그인 창*/
+#jwt-test-page>#jwt-login{
+    width:1200px;
+    height:200px;
+    background-color: aqua;
+}
+
+#jwt-login>h1{
+    background-color: maroon;
+}
+
+#jwt-login>#jwt-login-true{
+    width:1200px;
+    height:200px;
+    background-color: darkorchid;
+}
+
+#jwt-login-true>#id-row{
+    width:1200px;
+    height:66px;
+    background-color: burlywood;
+}
+#jwt-login-true>#name-row{
+    width:1200px;
+    height:66px;
+    background-color: chartreuse;
+}
+#jwt-login-true>#loggedin-row{
+    width:1200px;
+    height:66px;
+    background-color: chocolate;
+}
+#jwt-login-true>div>span{
+    font-size:24px;
+    font-weight: bold;
+}
+
+
+#jwt-login>#jwt-login-false{
+    width:1200px;
+    height:200px;
+    background-color: darkgoldenrod;
+}
+
+
+#jwt-login-false>input{
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    margin:10px;
+    display:block;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+#jwt-login-false>button{
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    margin-left:10px;
+    font-size:24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*액세스 토큰 정보*/
+#jwt-test-page>#access-token-info{
+    width:1200px;
+    height:260px;
+    background-color: blueviolet;     
+}
+#access-token-info>h1{
+    background-color: darkolivegreen;   
+}
+#access-token-info>h1>button{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#access-token-info>div>span{
+    font-size:24px;
+    font-weight: bold;
+    background-color: mediumorchid;
+}
+#access-token-info>#access-token-current{
+    width:1200px;
+    height:65px;
+    background-color: burlywood;
+}
+#access-token-info>#access-token-expired{
+    width:1200px;
+    height:65px;
+    background-color: chartreuse;    
+}
+#access-token-info>#access-token-left{
+    width:1200px;
+    height:65px;
+    background-color: chocolate;
+}
+
+/*리프레시 토큰 정보*/
+#jwt-test-page>#refresh-token-info{
+    width:1200px;
+    height:260px;
+    background-color: brown;     
+}
+#refresh-token-info>h1{
+    background-color: darkolivegreen;   
+}
+#refresh-token-info>h1>button{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#refresh-token-info>div>span{
+    font-size:24px;
+    font-weight: bold;
+    background-color: mediumorchid;
+}
+#refresh-token-info>#refresh-token-current{
+    width:1200px;
+    height:65px;
+    background-color: burlywood;
+}
+#refresh-token-info>#refresh-token-expired{
+    width:1200px;
+    height:65px;
+    background-color: chartreuse;
+}
+#refresh-token-info>#refresh-token-left{
+    width:1200px;
+    height:65px;
+    background-color: chocolate;
+}

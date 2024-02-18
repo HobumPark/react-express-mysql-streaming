@@ -1,0 +1,53 @@
+
+#user-board{
+    width:95%;
+    height:50px;
+    background-color: mediumaquamarine;
+    margin:0 auto;
+    margin-bottom: 2px;
+}
+#user-board>span{
+    float:left;
+    height:100%;
+    padding:10px;
+    box-sizing: border-box;
+}
+#user-board>span:first-child{
+    width:5%;
+    background-color: mediumseagreen;
+    position: relative;
+    text-align: center;
+}
+#user-board>span:first-child>.chk{
+    position: absolute;
+    left:-20px;
+    top:5px;
+}
+#user-board>span:nth-child(2){
+    width:50%;
+    background-color: mediumturquoise;
+}
+#user-board>span:nth-child(3){
+    width:15%;
+    background-color: mediumvioletred;
+    text-align: center; 
+}
+#user-board>span:nth-child(4){
+    width:15%;
+    background-color: mediumpurple;
+    text-align: center;    
+}
+#user-board>span:nth-child(5){
+    width:5%;
+    background-color: mistyrose;
+    text-align: center;   
+}
+#user-board>span:nth-child(6){
+    width:10%;
+    background-color: maroon;
+    text-align: center; 
+}
+
+#user-board>span>a{
+    color:#333;
+}

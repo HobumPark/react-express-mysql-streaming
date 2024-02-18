@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#animation-one-list-wrap{
+    width:100%;
+    /* height:1200px; */
+    background-color: aqua;
+}
+
+#animation-one-list-wrap-inner{
+    width:1600px;
+    /* height:1200px; */
+    background-color: aquamarine;
+    margin:0 auto;
+}
+
+#animation-one-list{
+    width:1600px;
+    height:1200px;
+    background-color: antiquewhite;
+}
+#animation-one-list>#animation-one-list-side{
+    float:left;
+    width:300px;
+    height:100%;
+    background-color: coral;
+}
+
+#animation-one-list-side>#animation-one-list-side-img{
+    width:100%;
+    height:300px;
+    background-color: magenta;
+}
+#animation-one-list-side>#animation-one-list-side-img>img{
+    display:block;
+    width:90%;
+    height:95%;
+    padding-top:10px;
+    box-sizing: border-box;
+    margin:0 auto;
+    border-radius: 10px;
+}
+
+#animation-one-list-side>#animation-one-list-side-info{
+    width:100%;
+    height:450px;
+    background-color: maroon;
+}
+#animation-one-list-side>#animation-one-list-side-info>h1{
+    background-color: darkgoldenrod;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:24px;
+    font-weight: bold;
+}
+#animation-one-list-side>#animation-one-list-side-info>span{
+    display:block;
+    background-color: darkgray;
+    margin-bottom: 2px;
+    font-size:18px;
+    padding:5px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+#animation-one-list-side>#animation-one-list-side-info>span:hover{
+    color:pink;
+    cursor: pointer;
+}
+
+#animation-one-list-side>#animation-one-list-side-info>span>a{
+    color: #222;
+}
+#animation-one-list-side>#animation-one-list-side-info>span>a:hover{
+    color:pink;
+    cursor: pointer;
+}
+
+#animation-info{
+    font-weight: bold;
+}
+
+#animation-one-list-side>#animation-one-list-side-control{
+    width:100%;
+    height:200px;
+    background-color: mediumaquamarine;
+    padding:20px;
+    box-sizing: border-box;
+}
+#animation-one-list-side>#animation-one-list-side-control>button{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    margin-right:10px;
+    cursor: pointer;
+    background-color: palegreen;
+}
+#animation-one-list-side>#animation-one-list-side-control>button:hover{
+    background-color: palevioletred;
+}
+
+#animation-one-list>#animation-one-list-inner{
+    float:left;
+    width:1300px;
+    height:100%;
+    background-color: darkmagenta;
+    padding:40px;
+    box-sizing: border-box;
+}
+
+.animation-one-element{
+    width: 95%;
+    height:100px;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.animation-one-element:hover{
+    opacity: 0.7;
+}
+
+#ani-one-image{
+    width:10%;
+    height:100px;
+    background-color: darkblue;
+    float:left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#ani-one-title{
+    width:90%;
+    height:100px;
+    background-color: darkcyan;
+    float:left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:20px;
+    box-sizing: border-box;
+    font-size:20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#pagination-wrap{
+    width:100%;
+    height:100px;
+    background-color: blueviolet;
+}
+
+.korea{
+    display:inline-block;
+    background: url('../../images/country-spite.png') no-repeat -412px -20px;
+    width: 91px;
+    height: 93px;
+}
+
+.japan{
+    display:inline-block;
+    background: url('../../images/country-spite.png') no-repeat -134px -281px;
+	width: 94px;
+	height: 94px;
+    transform: scale(0.3);
+    position: absolute;
+    top:-27px;
+    left:70px;
+}
+
+.usa{
+    display:inline-block;
+    background: url('../../images/country-spite.png') no-repeat -274px -21px;
+	width: 91px;
+	height: 90px;
+}

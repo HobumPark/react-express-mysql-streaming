@@ -1,0 +1,85 @@
+
+#ani-board-total-list-filter{
+    float:left;
+    width:400px;
+    height:100%;
+    background-color: palevioletred;
+    padding:50px;
+    box-sizing: border-box;
+}
+#ani-board-total-list-filter>#filter-refresh{
+    width:300px;
+    height:90px;
+    background-color: paleturquoise;
+    padding:5px;
+    box-sizing: border-box;
+}
+#filter-refresh>div{
+    padding-top:5px;
+    box-sizing: border-box;
+    height:70px;
+}
+#filter-refresh>div>button{
+    border-radius: 10px;
+    border:1px solid black;
+    background-color: palegreen;
+}
+#filter-refresh>div>button:hover{
+    background-color: #333;
+}
+#ani-board-total-list-filter>#filter1-genre{
+    width:300px;
+    height:280px;
+    background-color: paleturquoise;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+#ani-board-total-list-filter>#filter1-tag{
+    width:300px;
+    height:240px;
+    background-color: papayawhip;
+    padding:5px;
+    box-sizing: border-box;    
+}
+
+#ani-board-total-list-filter>#filter1-year{
+    width:300px;
+    height:200px;
+    background-color: palegreen;
+    padding:5px;
+    box-sizing: border-box;
+}
+#filter1-year>div>select{
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter>div{
+    background-color: mediumorchid;
+    margin-bottom: 10px;
+    padding-left:5px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+.filter>h1{
+    font-size:22px;
+    font-weight: bold;
+    background-color: mediumaquamarine;
+    padding-left:5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.filter>div>input{
+    width:20px;
+    height:20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right:5px;
+}
+.filter>div>button{
+    border: none;
+    cursor: pointer;
+}

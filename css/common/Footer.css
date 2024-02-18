@@ -1,0 +1,49 @@
+
+#footer{
+    width:1200px;
+    height:100px;
+    background-color: burlywood;
+    margin:0 auto;
+}
+
+#footer>#logo{
+    float:left;
+    width:200px;
+    height:100px;
+    background-color: darkblue;
+    padding:30px;
+    box-sizing: border-box;
+}
+
+#footer>#copyright{
+    float:left;
+    width:800px;
+    height:100px;
+    background-color: darkgoldenrod;
+    padding:15px;
+    box-sizing: border-box;
+}
+#copyright>ul>li{
+    float:left;
+    font-size:14px;
+}
+
+
+#footer>#sns{
+    float:left;
+    width:200px;
+    height:100px;
+    background-color: darkgray;
+    padding-top:30px;
+    padding-left:30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#footer>#sns>a{
+    float:left;
+    margin-right:30px;
+}
+#footer>#sns>a>img{
+    transform: scale(1.5);
+}

@@ -1,0 +1,114 @@
+#login{
+    width:1200px;
+    height:700px;
+    background-color: chocolate;
+    margin:0 auto;
+    padding-top:30px;
+    box-sizing: border-box;
+}
+
+#login>#login-form{
+    width:470px;
+    height:580px;
+    background-color:#333;
+    margin:0 auto;
+    padding:30px;
+    box-sizing: border-box;
+}
+#login-form>h1{
+    color:#fff;
+    margin-bottom: 5px;
+}
+#login-form>#login-input{
+    background-color: palegoldenrod;
+    margin:0 auto;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#login-form>#login-input>input{
+    background-color: #444;
+    display:block;
+    width:355px;
+    height:50px;
+    margin:0 auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left:20px;
+}
+
+#login-form>#div-btn{
+    width:100%;
+    background-color: paleturquoise;
+    padding:10px;
+    box-sizing: border-box;
+}
+#login-form>#div-btn>input{
+    float:left;
+    position: relative;
+    left:5px;
+    top:5px;
+    margin-right:10px;
+}
+#login-form>#div-btn>label{
+    color:#fff;
+}
+#login-form>#div-btn>#id-pw-find{
+    float:right;
+    color:#fff;
+}
+#login-form>#login-btn{
+    background-color:papayawhip;
+}
+#login-form>#login-btn>button{
+    width:350px;
+    height:60px;
+    border-radius: 10px;
+    margin:0 auto;
+    display:block;
+    color:#333;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: palegreen;
+}
+#login-form>#etc-login{
+    background-color: peru;   
+}
+#login-form>#etc-login>#etc-login-btn-wrap{
+    width:100%;
+    height:100px;
+    background-color: peachpuff;
+    text-align: center;
+    
+}
+#etc-login-btn-wrap>ul{
+    display:inline-block;
+    padding-top:20px;
+    box-sizing: border-box;
+}
+
+#etc-login-btn-wrap>ul>li{
+    float:left;
+    margin-right:10px;
+}
+#login-form>#etc-login>h1{
+    font-size:14px;
+    color:#fff;
+    text-align: center;
+}
+#login-form>#join{
+    background-color: purple;   
+    text-align: center;
+}
+#login-form>#join>h1{
+    font-size:14px;
+    color:#fff;
+    text-align: center;
+}
+#login-form>#join>button{
+    color:#fff;
+    background: none;
+    border:none;
+    cursor: pointer;
+}

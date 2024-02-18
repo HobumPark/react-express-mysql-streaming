@@ -1,0 +1,156 @@
+
+#member-update{
+    width:100%;
+    height:1000px;
+    background-color: palegoldenrod;
+}
+
+#member-update-form{
+    width:1200px;
+    height:100%;
+    background-color: palegreen;
+    margin:0 auto;
+}
+#member-update-form>h1{
+    text-align: center;
+    font-size:40px;
+    font-weight: bold;
+}
+#member-update-form>div{
+    padding:10px;
+    box-sizing: border-box;
+}
+#member-update-form>div>span{
+    background-color: mediumpurple;
+    margin-right:10px;
+    font-size:24px;
+}
+#member-update-form>div>input{
+    margin-right:10px;
+    border-radius: 10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    font-size:24px;
+}
+
+#member-update-form>#id-row{
+    width:100%;
+    height:100px;
+    background-color: paleturquoise;
+}
+#id-row>input{
+    width:250px;
+    height:40px;
+    background-color: #777;
+}
+
+#member-update-form>#pw-row{
+    width:100%;
+    height:100px;
+    background-color: palevioletred;
+}
+#pw-row>input{
+    width:250px;
+    height:40px;
+    background-color: #777;
+}
+#pw-row>button{
+    width:100px;
+    height:40px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+#member-update-form>#name-row{
+    width:100%;
+    height:100px;
+    background-color: thistle;
+}
+#name-row>input{
+    width:200px;
+    height:40px;
+    background-color: #777;
+}
+
+#member-update-form>#phone-row{
+    width:100%;
+    height:100px;
+    background-color: peachpuff;
+}
+#phone-row>input{
+    width:200px;
+    height:40px;
+    background-color: #777;
+}
+#phone-row>button{
+    width:100px;
+    height:40px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+
+#member-update-form>#email-row{
+    width:100%;
+    height:100px;
+    background-color: plum;
+}
+#email-row>input{
+    width:300px;
+    height:40px;
+    background-color: #777;
+}
+#email-row>button{
+    width:100px;
+    height:40px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+
+#member-update-form>#address-row{
+    width:100%;
+    height:120px;
+    background-color: powderblue;
+}
+#address-row>input{
+    width:500px;
+    height:40px;
+    margin-bottom: 10px;
+    background-color: #777;
+}
+#address-row>#address{
+    position: relative;
+    left:10px;
+}
+
+#address-row>#detail-address{
+    position: relative;
+    left:80px;
+}
+#member-update-form>#btn-row{
+    width:100%;
+    height:100px;
+    background-color: peru;
+    text-align: center;
+    padding-top:20px;
+    box-sizing: border-box;
+}
+#member-update-form>#btn-row>button{
+    width:150px;
+    height:60px;
+    font-size:24px;
+    border-radius: 10px;
+    margin-right:10px;
+    border:none;
+    cursor: pointer;
+    background-color: paleturquoise;
+}
+#member-update-form>#btn-row>button:hover{
+    background-color: #333;
+    color:#fff;
+}
+
+.input-active{
+    background-color: #fff !important;
+}
